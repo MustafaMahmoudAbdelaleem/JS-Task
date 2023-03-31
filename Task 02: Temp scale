@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Weather Detector</title>
+<head>
+    <body>
+        <script>
+            var temp = prompt("Enter the temp ");
+            function getHot(temp) {
+	                            if (temp >30) {
+                document.write ("HOT");
+                }
+                else if (temp =< 30) {
+                document.write ("COLD")
+                }
+                    
+                </script>
+    </body>
+	</head>
+</html>
