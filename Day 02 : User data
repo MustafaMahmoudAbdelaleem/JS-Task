@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    <script type="text/javascript">
+
+function addtext()
+   var userName = document.booking.userName.value;{
+    if (/[^a-zA-Z\-\]/.test( stringf ))
+    alert ("true")
+       }else{ 
+        alert("please enter a valid number")
+       }
+       var userPhone = document.booking.userPhone.value;{
+        if (userPhone==value.length>8)
+    {
+        alert("phone number cannot be more than 8 numbers");
+        return false;
+        if (userPhone==value.length < 8)
+    {
+        alert("phone number cannot be less than 8 numbers");
+        return false;
+       }
+      
+   var userMob = document.booking.userMob.value;{
+    if (userPhone==value.length ==11);
+    return true;{ 
+    else {
+        return false;
+    }
+
+    }
+    
+      var  userEmail = document.booking.userEmail.value;
+     
+   console.log(Welcome user )
+   document.writeln("br>");
+   console.log(" Welcome dear guest " + userName);
+   console.log("your telephone number: " + userPhone);
+   console.log("your mobile number is: " + userMob);
+   console.log("your email address is"+userEmail);
+}
+  </script>  
+</body>
+</html>
